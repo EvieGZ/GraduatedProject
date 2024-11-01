@@ -1,0 +1,56 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    transition: right 0.3s;
+    padding: 20px;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+    overflow-y: auto;  /* Enables vertical scrolling */
+    max-height: 100vh; /* Makes sure the sidebar doesn't exceed the height of the viewport */
+    z-index: 2;
+  }
+  
+  .sidebar.open {
+    right: 0;
+    display: block;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 10px; /* Adjust width for vertical scrollbar */
+    background-color: #ffffff;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Color of the track */
+    border-radius: 10px; /* Roundness for the track */
+}
+
+.closeBtn {
+    border-radius: 0.7rem;
+    font-size: 10px;
+}
+
+.removeFromBagButton{
+  border-radius: 5rem;
+  font-size: 7px;
+  margin-left: 9rem;
+  z-index: 5;
+  background-color: rgb(249, 70, 70);
+  border: none;
+  
+}
+
+.checkoutbtn{
+  border-radius: 15px;
+  font-size: 15px;
+  z-index: 5;
+  background-color: rgb(190, 184, 157);
+  border: none;
+  
+}

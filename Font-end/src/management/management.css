@@ -1,0 +1,176 @@
+.bgmanage {
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.managebutton {
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+button:hover {
+    border: none;
+}
+
+button {
+    border-radius: 14px;
+}
+
+h3 {
+    color: white;
+}
+
+.logout {
+    background-color: red;
+}
+
+.spaceTop {
+    margin-top: 16px;
+}
+/* 
+.productCard{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } */
+
+.productShow {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping when the container width is insufficient */
+    margin-top: 1rem;
+    justify-content: center;
+  } 
+
+.BackToManage {
+    background-color: rgba(0,0,0,0.5); /* semi-transparent black */
+    position: fixed;
+    margin-left: 2rem;
+    display: flex;
+    z-index: 1000; /* to make sure it appears above most other elements */
+}
+
+.inline-form-group {
+    display: flex;
+    margin-top: 8px;
+  }
+  
+  .inline-form-control {
+    flex: 1;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .inline-form-control:last-child {
+    margin-right: 0;
+  }
+  
+  .formSetting {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+  }
+
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: set the height to the viewport height */
+  }
+
+  .formSetting h4 {
+    text-align: center;
+  }
+
+.cardBodyForm {
+  border: 2px solid #c6c6c6;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 20px;
+  width: 600px;
+  max-height: 500px; /* Set a maximum height */
+  overflow-y: auto; /* Add vertical scrollbar when content overflows */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.setForm {
+    backdrop-filter: blur(7px);
+}
+
+.uploadImg {
+    text-align: center;
+}
+
+  .btnAdd {
+    margin-top: 16px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space between children */
+    border: none;
+  }
+
+  .spaceTop {
+    margin-top: 8px;
+  }
+
+  .btnmanage {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttoncommandpop {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .btnDlEd {
+    cursor: pointer;
+  }
+
+  .btn {
+    background: #3b3737;
+    color: #ffffff;
+    border-radius: 16px;
+  }
+
+  .btnMage {
+    background: #3b3737;
+    color: #ffffff;
+    width: 350px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+  }
+
+  .symbol {
+    margin-left: 10px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+
+
+  .btnMage:hover {
+    background: #3c3939;
+    color: #ffffff;
+  }

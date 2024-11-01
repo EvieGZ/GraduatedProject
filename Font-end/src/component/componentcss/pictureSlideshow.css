@@ -1,0 +1,44 @@
+/* PictureSlideshow.css */
+.picture-slideshow {
+    position: relative;
+    top: 7rem;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .slide {
+    position: relative;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 94%;
+    height: auto;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Add spacing between the images and dots as needed */
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #888; /* Dot color when not active */
+    margin: 0 5px; /* Adjust the spacing between dots */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .dot.active {
+    background-color: #333; /* Dot color when active */
+  }
+
+  @media (max-width: 1000px) {
+    .picture-slideshow {
+    position: relative;
+    top: -3rem;
+    margin: 0 auto; /* Center horizontally */
+  }
+}

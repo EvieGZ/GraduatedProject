@@ -1,0 +1,80 @@
+.product-container {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping when the container width is insufficient */
+    margin-top: 5rem;
+    justify-content: center;
+  }  
+
+.buttoncommand{
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+.buttoncommand button {
+    margin-left: 50px; /* Add space between buttons */
+  }
+
+.viewDetails{
+    border-radius: 0.7rem;
+    font-size: 11px;
+}
+
+.productCard{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+/*products popup*/
+.readmore{
+    border: none;
+    background: none;
+    color: rgb(78, 78, 78);
+    text-decoration: underline;
+    font-size: 15px; /* Adjust the font size as needed */
+}
+
+.centered-content {
+    text-align: center;
+    margin-bottom: 10px; /* Add some spacing between the image/name and the button */
+  }
+  
+  .centered-content img {
+    display: block; /* Ensure the image is centered horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+.buttoncommandpop {
+  display: flex;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.buttoncommandpop button {
+  margin-left: 30px; /* Add space between buttons */
+}
+  
+  /* Media query to adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .productCard {
+      width: calc(50% - 10px); /* Change to two columns for smaller screens */
+      text-align: center;
+    }
+
+    .buttoncommandpop {
+      display: flex;
+      margin-left: 18px;
+    }
+    
+    .buttoncommandpop button {
+      margin-left: 5px; /* Add space between buttons */
+    }
+
+  }

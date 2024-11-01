@@ -1,0 +1,36 @@
+.nav {
+    position: fixed; /* Set the position to fixed */
+    top: 0; /* Place the Navbar at the top of the viewport */
+    left: 0; /* Align the Navbar to the left side */
+    right: 0; /* Align the Navbar to the right side */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(183, 177, 156);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 7px 20px; /* Add padding to separate the icons from the edges */
+    z-index: 1; 
+  }
+  
+  .title {
+    margin: 0.5rem;
+  }
+
+/* Style for the icon container */
+.icon-container {
+  display: flex;
+  align-items: center;
+  padding-right: 32px;
+}
+
+/* Style for the icons */
+.icon {
+  margin-left: 25px; /* Adjust margin between icons as needed */
+  color: #333; /* Icon color */
+  cursor: pointer;
+}
+
+h3{
+  color: black;
+}

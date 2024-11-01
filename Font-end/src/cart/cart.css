@@ -1,0 +1,90 @@
+ .containers{
+   background-image: url('./bg.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow-y: auto;
+ }
+
+ .box-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .itemcontainer{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 95%;
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #fffffff3;
+    margin: 12px;
+ }
+
+ .left{
+    width: 70%;
+
+ }
+
+ .line{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 80%;
+ }
+
+ .img-qr{
+    width: 300px;
+    height: 270px;
+    border-radius: 15px;
+ }
+
+ .img-qr img {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+ }
+
+ .content-about{
+    margin-top: 10px ;
+    font-size: smaller;
+ }
+
+ .content-about p{
+    font-weight: 10%; 
+ }
+
+ .input-form{
+   display: unset;
+   justify-content: center;
+   align-items: center;
+   width: 150%;
+   font-size:90%;
+   padding-right: 10%;
+   padding-left: 10%; 
+ }
+ h4{
+   text-align: center;
+ }
+.butt{
+   text-align: center;
+   margin-top: 5%;
+}
+.buttom{
+   text-align: center;
+}
+button{
+   font-size: smaller;
+   border-radius: 20px;
+}

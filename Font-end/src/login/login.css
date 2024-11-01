@@ -1,0 +1,77 @@
+.loginForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.loginForm :placeholder-shown{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.278);
+    
+}
+
+.loginForm h4 {
+    text-align: center;
+}
+
+.loginbtn {
+    display: block;
+    text-align: center;
+    background-color: black;
+    border: none;
+    
+}
+
+.loginbtn:hover{
+    display: block;
+    text-align: center;
+    background-color:  rgb(67, 38, 38);
+    border: none;
+    
+}
+
+.loginbtn:active{
+    display: block;
+    text-align: center;
+    background-color: rgb(47, 26, 26);;
+    border: none;
+    
+}
+
+.loginbtn:focus{
+    display: block;
+    text-align: center;
+    background-color: rgb(67, 38, 38);;
+    border: none;
+    
+}
+
+
+.cardBody{
+    border: 2px solid #c6c6c6;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.712);
+    backdrop-filter: blur(7px);
+  }
+  
+  .improve {
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    justify-content: center;
+}

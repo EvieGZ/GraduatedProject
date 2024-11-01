@@ -1,0 +1,86 @@
+.dropdownProfile{
+    position: fixed;
+    top: 4.5rem;
+    right: 2px;
+    width: 140px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: rgb(183, 177, 156);
+    border: 1px solid rgb(0, 0, 0);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2; 
+    font-size:20px;
+}
+
+.dropdownProfile::before{
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  right: 3.3rem;
+  width: 15px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: rgb(183, 177, 156);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid rgb(201, 201, 201);
+
+}
+
+.textDropdown{
+  font-size: 15px;
+  margin-top: 12px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+/*setting text link appearence*/
+.setText{
+  text-decoration: none; /* Remove the underline style */
+  color: #333; /* Set the text color to your desired color */
+  cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+  font-weight: normal; /* Set the font weight to normal or your desired value */
+}
+
+.setText:hover {
+  text-decoration: none; /* Optionally, you can add an underline on hover */
+  color: #2f2525;
+  font-weight: 500;
+  font-style: oblique;
+}
+/*setting text link appearence*/
+.profile{
+  text-decoration: none; /* Remove the underline style */
+  color: #333; /* Set the text color to your desired color */
+  cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+  font-weight: normal; /* Set the font weight to normal or your desired value */
+}
+
+.profile:hover {
+  text-decoration: none; /* Optionally, you can add an underline on hover */
+  color: #2f2525;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+/*setting H6*/
+h6{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+
+
+/*setting <li>*/
+li {
+    list-style: none; /* Remove bullet points */
+    border-bottom: 1px solid rgb(183, 177, 156); /* Add a 1px solid border to the bottom of each <li> */
+    padding-bottom: 7px; /* Add some spacing between the text and the border */
+    margin-bottom: 7px; /* Add some vertical spacing between list items */
+    margin-right: 8px;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+
